@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="结束"
+        android:id="@+id/aachart_view_title_menu_end_work"></item>
+    <item android:title="设置IP地址"
+        android:id="@+id/aachart_view_title_menu_setting"></item>
+    <!--<item android:title="设置查看时间"
+        android:id="@+id/aachart_view_title_time_menu_setting"></item>-->
+    <item android:title="放弃提交数据"
+        android:id="@+id/aachart_view_title_qx_menu_setting"></item>
+</menu>

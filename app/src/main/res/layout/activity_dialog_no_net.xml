@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="240dp"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="com.gema.soft.dataacquisition.activitys.DialogNoNetActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/dialog_no_net_show_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="clip_horizontal|center|clip_vertical|center_horizontal|center_vertical"
+            android:gravity="clip_horizontal|center|center_horizontal"
+            android:text="点击确定按钮结束工作。" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <Button
+            android:id="@+id/dialog_no_cancel_btn"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:background="@color/circleInner"
+            android:text="取消"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/dialog_no_net_save_btn"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_blue_light"
+            android:text="确定" />
+
+    </LinearLayout>
+</LinearLayout>

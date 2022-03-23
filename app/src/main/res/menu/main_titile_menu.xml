@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="扫描设备"
+        android:id="@+id/main_title_menu_selectDevice"></item>
+    <item android:title="设置IP"
+        android:id="@+id/main_title_menu_setting_ip"></item>
+    <item android:title="设置回传速率"
+    android:id="@+id/main_title_menu_setting_hz"></item>
+    <item android:title="断开并取消自动连接"
+        android:id="@+id/main_title_menu_setting_close_bluetooth"></item>
+</menu>

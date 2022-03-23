@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="black_translucent_overlay">#E6000000</color>
+    <color name="circleInner">#FAFAFA</color>
+    <color name="errorAccent">#B71C1C</color>
+    <color name="mainTextColor">#7F7E7E</color>
+    <color name="tableHeadColor">#616161</color>
+    <color name="titleColor">#FFFFFF</color>
+    <color name="colorText">#212121</color>
+    <color name="select_item_light">#33B5E5</color>
+</resources>
